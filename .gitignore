@@ -1,0 +1,35 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Private project documentation
+05_Evidence/
+evidence/
+private/
+*.xlsx
+*.docx
+*.pdf
+*.csv
+
+# Backup files
+*.bak
